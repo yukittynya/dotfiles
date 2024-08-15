@@ -46,7 +46,8 @@ Place the folders in a structure like this! Note: you will have to create .fonts
 │   ├── dunst
 │   ├── eww
 │   ├── hypr
-│   ├── kiitty
+│   ├── kitty
+│   ├── rofi
 │   ├── waybar
 │   └── zsh
 ├── .fonts/
