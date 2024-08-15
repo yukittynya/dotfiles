@@ -3,6 +3,13 @@
 
 Here are my hyprland dotfiles based off the wallpaper from a lofi playlist, "[Somewhere Nowhere](https://youtu.be/eAXdSkBMQAQ)". I hope you enjoy it :3
 
+## Screenshots
+
+![](https://github.com/yukittynya/dotfiles/blob/master/screenshots/one.png)
+![](https://github.com/yukittynya/dotfiles/blob/master/screenshots/two.png)
+![](https://github.com/yukittynya/dotfiles/blob/master/screenshots/three.png)
+![](https://github.com/yukittynya/dotfiles/blob/master/screenshots/four.png)
+
 ## Overview
 The cuties that make up this environment 
 - **Distro:** Arch Linux :3
@@ -62,9 +69,3 @@ If you would like to have user directories then use xdg-user-dirs!
 ```yay -S xdg-user-dirs``` then run ```xdg-user-dir```
 
 For Neovim I use [NvChad](https://nvchad.com/), install it with ```git clone https://github.com/NvChad/starter ~/.config/nvim && nvim```
-## Screenshots
-
-![](https://github.com/yukittynya/dotfiles/blob/master/screenshots/one.png)
-![](https://github.com/yukittynya/dotfiles/blob/master/screenshots/two.png)
-![](https://github.com/yukittynya/dotfiles/blob/master/screenshots/three.png)
-![](https://github.com/yukittynya/dotfiles/blob/master/screenshots/four.png)
