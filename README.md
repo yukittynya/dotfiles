@@ -6,8 +6,8 @@ Here are my hyprland dotfiles based off the wallpaper from a lofi playlist, "[So
 ## Screenshots
 
 ![](https://github.com/yukittynya/dotfiles/blob/master/screenshots/one.png)
-![](https://github.com/yukittynya/dotfiles/blob/master/screenshots/two.png)
 ![](https://github.com/yukittynya/dotfiles/blob/master/screenshots/three.png)
+![](https://github.com/yukittynya/dotfiles/blob/master/screenshots/two.png)
 ![](https://github.com/yukittynya/dotfiles/blob/master/screenshots/four.png)
 
 ## Overview
