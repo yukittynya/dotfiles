@@ -24,7 +24,7 @@ The cuties that make up this environment
 Make sure to install these otherwise things won't work duhhh :3
 
 ### Packages
-```yay -S hyprland waybar hyprpaper dunst pavucontrol brightnessctl zsh kitty rofi eww nitch pywal-16-colors nautilus grim slurp neovim```
+```yay -S hyprland waybar hyprpaper dunst pavucontrol brightnessctl zsh kitty rofi nitch pywal-16-colors nautilus grim slurp neovim```
 
 ### Fonts
 
