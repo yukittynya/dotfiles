@@ -1,0 +1,54 @@
+@import "wal_colors.css";
+
+* {
+  padding: 2px;
+  border: none;
+  border-radius: 10px;
+  font-family: "MartianMonoNerdFont";
+  font-weight: bold;
+  font-size: 18px;
+  color: @foreground;
+}
+
+.modules-left {
+  padding: 0px 5px 0px 3px;
+  border-radius: 15px;
+  margin-top: 5px;
+  margin-left: 10px;
+  background: @background;
+}
+
+.modules-center {
+  padding: 0px 5px 0px 3px;
+  border-radius: 15px;
+  margin-top: 5px;
+  background: @background;
+}
+
+.modules-right {
+  padding: 0px 0px 0px 5px;
+  border-radius: 15px;
+  margin-top: 5px;
+  margin-right: 10px;
+  background: @background;
+}
+
+window#waybar {
+  background: transparent;
+  margin: 10px;
+}
+
+#pulseaudio,
+#clock,
+#battery {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#custom-menu {
+  font-size: 24px;
+  background-image: url('/home/yukitty/.config/waybar/icons/menu.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 32px;
+}

@@ -1,0 +1,91 @@
+{
+  "layer": "top",
+  "height": 40,
+  "reload_style_on_change": true,
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["custom/music", "hyprland/window"],
+  "modules-right": ["tray", "pulseaudio", "battery", "network","clock", "custom/menu"],
+
+  "hyprland/workspaces": {
+    "on-click": "activate",
+    "format": "{icon}",
+    "format-icons": {
+      "active": "",
+      "default": ""
+    }
+  },
+
+  "custom/music": {
+    "format": "  {}",
+    "escape": true,
+    "interval": 5,
+    "tooltip": false,
+    "exec": "playerctl metadata --format='{{ title }}'",
+    "on-click": "playerctl play-pause",
+    "max-length": 50
+  },
+
+  "hyprland/window": {
+    "format": "| {}",
+    "rewrite": {
+      "(.*) — Mozilla Firefox": "Firefox",
+      "nvim (.*)": "nvim",
+      "rofi - (.*)": "uwufi"
+    }
+  },
+
+  "tray": {
+    "icon-size": 20,
+    "spacing": 10 },
+
+  "clock": {
+    "timezone": "Africa/Pretoria",
+    "format": " {:%H:%M}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format-alt": "{:%d/%m/%Y}"
+  },
+
+  "pulseaudio": {
+    "format": " {volume}% {icon} ",
+    "format-muted": " ",
+    "on-click": "pavucontrol -t 3",
+    "tooltip-format": "{icon} {desc} // {volume}%",
+    "scroll-step": 5,
+    "format-icons": {
+      "default": ["", "", ""]
+    }
+  },
+
+  "battery": {
+    "interval": 5,
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "max-length": 20,
+    "format": "{capacity}% {icon}",
+    "format-warning": "{icon}",
+    "format-critical": "{icon}",
+    "format-charging": "<span font-family='MartianMonoNerdFont'></span>",
+    "format-plugged": "ﮣ", 
+    "format-alt": "{icon} {time}",
+    "format-full": "ﮣ", 
+    "format-icons": ["󱊡", "󱊢", "󱊣"]
+  },
+
+  "network": {
+    /* "format-wifi": "直", */
+    "format-wifi": " {signalStrength}% {icon} ",
+    "format-ethernet": " ",
+    "format-disconnected": "睊",
+    "tooltip-format": "{essid}",
+    "on-click": "~/.config/waybar/scripts/network/rofi-network-manager.sh",
+    "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"]
+  },
+
+  "custom/menu": {
+    "format": "    ",
+    "on-click": "~/.config/eww/dashboard/launch_dashboard.sh",
+    "tooltip-format": "eepy boy :3"
+  }
+}

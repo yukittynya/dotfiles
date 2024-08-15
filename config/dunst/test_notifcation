@@ -1,0 +1,2 @@
+killall dunst
+notify-send.sh "Title" "NYA"

@@ -1,0 +1,59 @@
+@import "colors.rasi"
+
+configuration{
+    show-icons: false;
+    display-drun: "🌸 ";
+    display-run: " ";
+    display-filebrowser: " ";
+    display-window: " ";
+    font: "JetBrainsMono Nerd Font 14";
+    window-format: "{w}{t}";
+    drun-display-format: "{name}";
+}
+
+window {
+  enabled: true;
+  fullscreen: false;
+  transparency: "real";
+  location: center;
+  anchor: center;
+  width: 400px;
+  border: 1px solid;
+  border-color: @foreground;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+inputbar {
+  enabled: true;
+  spacing: 10px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px solid;
+  border-radius: 0px;
+  background-color: transparent;
+  text-color: #ffffff;
+}
+
+entry {
+  enabled: true;
+  expand: false;
+  placeholder: "what will it be today kittyboy? :3";
+}
+
+listview {
+  padding: 10px;
+  layout: vertical;
+  spacing: 10px;
+  lines: 10;
+}
+
+element {
+  padding: 5px 10px;
+}
+
+element selected {
+  border-radius: 8px; 
+  vertical-align: 0.5;
+  horizontal-align: 0;
+}
